@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PT WEBSITE PG 3</title>
+        <style>
+          .logo-left
+            {
+                 position:absolute;
+                 top:10px;
+                left:10px;
+                width:110px;
+                height:110px;
+                margin-top:20px;
+                margin-left:20px; 
+            }
+             body
+            {
+                background-image: url(pg3bgimg.jpg);
+                background-size:cover;
+                background-position:center;
+                background-repeat:no-repeat;
+                background-origin:padding-box;
+                border: 10px double lightcoral ;
+                min-height:98vh;
+                box-sizing: border-box;
+            }
+             .zoom-bg
+            {
+                width:400px;
+                height:380px;
+                background-image:url(thankyouimg.jpg);
+                background-position: center;
+                background-repeat:no-repeat;
+                margin-top: 1%;
+                animation:zoom 6s infinite alternate;
+            }
+            @keyframes zoom
+            {
+                 0%{background-size:50%;}
+                 100%{background-size:100%}
+            }
+            .color-change
+            {   
+                font-size:34px;
+                font-weight: bolder;
+                margin-top:40px;
+                animation:colors 3s infinite alternate;
+            }
+            @keyframes colors
+            {
+                0%{color:lightcyan}
+                25%{color:lightpink}
+                50%{color:darkorange;}
+                75%{color:lightgreen;}
+                100%{color:lightyellow;}
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+    </head>
+    <body>
+     <img src="logo.jpeg" class="logo-left">
+     <center>
+        <div class="color-change">
+         <div class="mt-4">
+        <h1 class="h1"><strong><em>VISIT AGAIN SOON !!!! </em></strong></h1>
+        </div>
+        <br>
+        <div class="zoom-bg"></div>
+        </div>
+        <button class="btn btn-warning">
+            <a href="PTWEBSITEPG1.html">HOME</a>
+        </button>
+     </center>
+    </body>
+</html>
