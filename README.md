@@ -4,7 +4,7 @@ This project is a interactive and responsive website for an educational coaching
 <br>
 It provides information about courses, faculty, branches, institue events and allows students to contact and apply online.
 <br><br>
-**Features**
+##FEATURES
 - Home page with a welcome section and smooth design  
 - Navigation menu for Courses, Faculty, Events, Branches, and Feedback along with admission form and contact details  
 - Admission form with validation to ensure only valid data is submitted  
